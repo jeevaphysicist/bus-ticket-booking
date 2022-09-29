@@ -1,0 +1,67 @@
+.search-part{
+    /* background-image: url(../Assets/waves.gif);
+    background-repeat: no-repeat ;
+    background-size: cover; */
+    /* background-color: black; */
+
+            } 
+.search{
+        width:150px;
+        margin:auto;
+       }
+ .search-bar{
+             background-color: gray;
+            }
+.search-part .card{
+                  border-radius: 10px;
+                  border-color: white;
+                  background-color: transparent;
+                  
+                  }
+.search-part .card input{
+  border-radius: 10px;
+  border-color: orange;
+  color:red;
+}  
+
+.tic .ticket{
+	background-color: gold;
+	font-weight: bolder;
+	font-size: 15px;
+	
+}
+
+.carousel-inner{
+  border-radius: 10px;
+  height: 300px;
+ 
+}
+marquee{
+  border-radius: 7px;
+  background-color: black;
+}
+.marq{
+  font-size: 20px;
+  font-weight: bolder;
+  color: hsl(10, 100%, 50%);
+}
+.ava{
+  font-size: 15px;
+  font-weight: bolder;
+  color:white;
+}
+
+.showticket{
+  border: 2px double white;
+  border-radius: 7px;
+  width: 300px;
+  text-align: center;
+}
+.showticket .btn{
+ color: red;
+  
+}
+.close{
+  background-color: azure;
+  color:black;
+}

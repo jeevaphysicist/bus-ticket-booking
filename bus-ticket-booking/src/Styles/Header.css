@@ -1,0 +1,38 @@
+.logo-part{
+   
+    padding: 10px;
+    
+}
+.logo{
+    color:orange;
+    padding: 5px;
+    background-color: white;
+    border-radius: 50% 0 50% 0;
+    text-align: center;
+    font-family:fantasy
+}
+
+.account{
+        font-weight: bolder;
+        font-size: 15px;
+        color: whitesmoke;
+        border: 2px dotted;
+        border-color: gray;
+        width: 100px;
+        background-color: black;
+}
+
+.login{
+       color:green;
+       text-align: center;
+      
+       font-weight: bolder;
+       
+      }
+
+.signup{
+       color: red;
+       border-color: white;
+       border: 2px solid;
+       border-color: white;
+       }

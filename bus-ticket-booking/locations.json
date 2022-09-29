@@ -1,0 +1,39 @@
+[{   "city_id":1,
+    "Startcitylocation":"Chennai",
+    "destinationcitylocation":["Bangalore","Coimbatore","Hyderabad","Vishakapatnam","Salem","Tirunelveli"]
+    },
+{
+    "city_id":2,
+    "Startcitylocation":"Bangalore",
+    "destinationcitylocation":["Chennai","Salem","Hyderabad","Coimbatore","Vishakapatnam","Kochi"]
+},
+{
+    "city_id":3,
+    "Startcitylocation":"Kochi",
+    "destinationcitylocation":["OOty","Salem","Bangalore","Vishakapatnam"]
+},
+{
+    "city_id":4,
+    "Startcitylocation":"Kakinada",
+    "destinationcitylocation":["Trichy"]
+},
+{
+    "startCity":[{
+        "city_id":1,
+        "startCity":"Chennai"
+    },
+    {
+        "city_id":2,
+        "startCity":"Bangalore"
+    },
+    {
+        "city_id":3,
+        "startCity":"Kochi"
+    },
+    {
+        "city_id":4,
+        "startCity":"kakinada"
+    }
+]
+}
+]

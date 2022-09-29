@@ -1,0 +1,22 @@
+.headings{
+    color:red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.values{
+    color:rgba(18, 213, 18, 0.897);
+}
+.colors{
+    background-color: black;
+}
+
+.colors .card{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 10px 10px 0 white;
+}
+.heading{
+    font-size: 30px;
+    color:red
+}

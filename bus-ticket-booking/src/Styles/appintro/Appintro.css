@@ -1,0 +1,40 @@
+.introback{
+    background-color: black;
+    width:var(--i);
+    height: var(--j);
+}
+
+.logo-name{
+    color:blue;
+    width: 100px;
+    height: auto;
+    padding: 5px;
+    background-color: azure;
+    border-radius: 50%;
+    font-weight: bolder;
+    font-family: cursive;
+}
+.introback div {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    bottom: auto;
+    right: auto;
+}
+.logo-image{
+    width:25px;
+    height:25px;
+    border-radius: 7px;
+}
+
+/* after part */
+.introback1{
+    background-color: black;
+    width:var(--i);
+    height: var(--j);
+}
+
+.continue{
+    border: 2px solid transparent;
+    background-color: blueviolet;
+}

@@ -1,0 +1,15 @@
+.tictic{
+    background-color:transparent;
+    font-size: 18px;
+    font-weight: bolder;
+    color:firebrick;
+    border: 2px solid white;
+    padding: 10px 10px;
+}
+.tic{
+    font-size: 30px;
+    color:blue;
+}
+.transactionback{
+    background-color: black;
+}

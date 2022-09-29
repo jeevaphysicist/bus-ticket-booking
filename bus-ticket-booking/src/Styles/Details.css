@@ -1,0 +1,128 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+.card{
+    background-color:transparent;
+   
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.seats {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 800px;
+}
+
+.seat {
+    display: flex;
+    flex: 0 0 14.2857142857%;
+    padding: 5px;
+    position: relative;
+}
+
+.seat:nth-child(3) {
+    margin-right: 14.2857142857%;
+}
+
+.seat input[type=checkbox] {
+    position: absolute;
+    opacity: 0;
+}
+
+.seat input[type=checkbox]:checked+label {
+    background: #bada55;
+    color: black;
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand;
+    animation-duration: 300ms;
+    animation-fill-mode: both;
+}
+
+.seat input[type=checkbox]:disabled+label {
+    background: rgb(212, 112, 112);
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.seat input[type=checkbox]:disabled+label:after {
+    content: "X";
+    text-indent: 0;
+    position: absolute;
+    top: 4px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.seat input[type=checkbox]:disabled+label:hover {
+    box-shadow: none;
+    cursor: not-allowed;
+}
+
+.seat label {
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5rem;
+    padding: 4px 0;
+    background: #00771a;
+    border-radius: 5px;
+    animation-duration: 300ms;
+    animation-fill-mode: both;
+    color: white;
+}
+.seatdisplay .card{
+ border: white 2px solid ;
+}
+
+
+
+.seat label:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0px 2px #7d86eb;
+}
+.details{
+    color:brown;
+    background-color:black;
+    font-size: 20px;
+    font-family:fantasy;
+    border: 2px white solid;
+}
+
+.sea{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: white;
+}
+.sea1{
+    width: 20px;
+    height: 20px;
+    background-color:green;
+    color: white;
+}
+.sea2,.sea4{
+    color: white;
+
+}
+
+
+
+
+.back{
+    background-color: black;
+}
